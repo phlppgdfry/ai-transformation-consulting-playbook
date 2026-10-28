@@ -1,0 +1,10 @@
+{
+  "monthly_volume": 600,
+  "minutes_before": 12,
+  "minutes_after": 5,
+  "hourly_cost": 45,
+  "adoption": 0.6,
+  "realisation": 0.5,
+  "implementation_cost": 12000,
+  "monthly_operating_cost": 350
+}

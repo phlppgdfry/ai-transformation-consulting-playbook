@@ -1,0 +1,93 @@
+{
+  "disclaimer": "Fictional case; assumptions, not client results or vendor quotes.",
+  "assumptions": {
+    "monthly_volume": 600,
+    "minutes_before": 12,
+    "minutes_after": 5,
+    "hourly_cost": 45,
+    "adoption": 0.6,
+    "realisation": 0.5,
+    "implementation_cost": 12000,
+    "monthly_operating_cost": 350
+  },
+  "base": {
+    "adoption": 0.6,
+    "hours_saved_month": 42.0,
+    "capacity_value_month": 1890.0,
+    "realised_benefit_month": 945.0,
+    "net_benefit_month": 595.0,
+    "first_year_net": -4860.0,
+    "first_year_roi_pct": -30.0,
+    "payback_months": 20.17
+  },
+  "sensitivity": [
+    {
+      "adoption": 0.3,
+      "hours_saved_month": 21.0,
+      "capacity_value_month": 945.0,
+      "realised_benefit_month": 472.5,
+      "net_benefit_month": 122.5,
+      "first_year_net": -10530.0,
+      "first_year_roi_pct": -65.0,
+      "payback_months": 97.96
+    },
+    {
+      "adoption": 0.6,
+      "hours_saved_month": 42.0,
+      "capacity_value_month": 1890.0,
+      "realised_benefit_month": 945.0,
+      "net_benefit_month": 595.0,
+      "first_year_net": -4860.0,
+      "first_year_roi_pct": -30.0,
+      "payback_months": 20.17
+    },
+    {
+      "adoption": 0.9,
+      "hours_saved_month": 63.0,
+      "capacity_value_month": 2835.0,
+      "realised_benefit_month": 1417.5,
+      "net_benefit_month": 1067.5,
+      "first_year_net": 810.0,
+      "first_year_roi_pct": 5.0,
+      "payback_months": 11.24
+    }
+  ],
+  "ranking": [
+    {
+      "id": "UC01",
+      "name": "Aanvragen routeren zonder AI",
+      "score": 4.4,
+      "decision": "candidate"
+    },
+    {
+      "id": "UC02",
+      "name": "Beleidsvragen met bronnen beantwoorden",
+      "score": 3.8,
+      "decision": "candidate"
+    },
+    {
+      "id": "UC06",
+      "name": "Managementrapport uit aanvraagstatussen",
+      "score": 3.6,
+      "decision": "candidate"
+    },
+    {
+      "id": "UC03",
+      "name": "Documenten automatisch classificeren",
+      "score": 3.2,
+      "decision": "candidate"
+    },
+    {
+      "id": "UC05",
+      "name": "Personeelsbeslissingen autonoom nemen",
+      "score": 3.4,
+      "decision": "blocked"
+    },
+    {
+      "id": "UC04",
+      "name": "Medische dossiers analyseren",
+      "score": 2.9,
+      "decision": "blocked"
+    }
+  ]
+}

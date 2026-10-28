@@ -1,0 +1,16 @@
+# Discovery — invultemplate
+
+Datum / deelnemers / facilitator: [invullen]
+Probleemeigenaar en sponsor: [invullen]
+Probleem in één zin, zonder oplossingsnaam: [invullen]
+Processtart en -einde: [invullen]
+Huidige stappen en uitzonderingen: [invullen]
+Baseline: volume / actieve tijd / wachttijd / fouten / bron: [invullen]
+Feiten (met bron) versus aannames: [invullen]
+Data-eigenaar, classificatie en toestemming: [invullen]
+Use cases, niet-AI-optie en motivatie scores: [invullen]
+Menselijke beslisser en escalatiepad: [invullen]
+Scope in / uit: [invullen]
+Kostenplafond en stopcriteria: [invullen]
+Acties: eigenaar / datum / afhankelijkheid: [invullen]
+Review door deelnemers en open verschil van mening: [invullen]

@@ -1,0 +1,7 @@
+id,name,value,feasibility,readiness,risk,human_owner,data_permission
+UC01,Aanvragen routeren zonder AI,4,5,4,1,yes,yes
+UC02,Beleidsvragen met bronnen beantwoorden,4,4,3,2,yes,yes
+UC03,Documenten automatisch classificeren,4,3,2,3,yes,yes
+UC04,Medische dossiers analyseren,5,2,1,5,yes,no
+UC05,Personeelsbeslissingen autonoom nemen,5,3,2,5,no,no
+UC06,Managementrapport uit aanvraagstatussen,3,4,4,2,yes,yes
