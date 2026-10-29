@@ -1,0 +1,2 @@
+# Optional executive PDF build dependency; not needed for make verify.
+reportlab==5.0.0
