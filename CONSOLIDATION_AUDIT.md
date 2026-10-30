@@ -54,3 +54,30 @@ releases, packages, cloud deployment and paid services are outside this pass.
 
 Fresh-checkout and final remote-head checks are recorded after execution below. No
 software, financial or model change is needed to complete this consolidation.
+
+## Closure evidence
+
+- **PASS — fresh checkout:** Hub `6f59287`, Agent `39080e0`, Playbook `2f867c7`
+  cloned into a new temporary directory. A new Python environment, all three `make verify`
+  suites, lockfile `npm ci`, real browser journey, real HTTP integration and `.NET publish`
+  passed. The package contains the DLL and index.html/app.js/app.css. This is a fresh
+  same-Mac checkout; hosted Linux execution is separate evidence.
+- **PASS — public references:** after publishing the new files, all 23 public targets in
+  the entry READMEs, completion/walkthrough and current architecture/Microsoft guides
+  returned successful HTTP responses. Local Markdown/JSON/XML/assets checks also pass.
+- **PASS — hosted consolidation:** [Hub verify](https://github.com/phlppgdfry/enterprise-ai-automation-hub/actions/runs/41143988876),
+  [Hub browser](https://github.com/phlppgdfry/enterprise-ai-automation-hub/actions/runs/41143988840),
+  [Agent verify](https://github.com/phlppgdfry/enterprise-ai-agent-governance/actions/runs/41143995356),
+  [Agent integration](https://github.com/phlppgdfry/enterprise-ai-agent-governance/actions/runs/41143995389),
+  and [Playbook verify](https://github.com/phlppgdfry/ai-transformation-consulting-playbook/actions/runs/41144001838)
+  completed on the reviewed consolidation commits above. Current PR checks identify the
+  exact head after this audit-only closure commit; they are inspected again before handoff.
+- **PASS — scope:** all changed files in this pass are Markdown. Application code,
+  dependencies, actions, financial data, model prompts, frozen datasets/results, PDF and
+  screenshot files are unchanged. No tag, release, merge, visibility/profile metadata,
+  package, cloud or paid-service operation was performed.
+
+**Recommendation:** close the reference portfolio as **Noordwerk Portfolio v1.0 —
+Showcase Candidate**. Hub and Playbook are portfolio-ready; Agent is technically verified
+with experimental model-backed paths. Model quality remains **FAIL**, as documented;
+production and independent-user acceptance remain outside this completion claim.
