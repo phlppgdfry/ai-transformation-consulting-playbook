@@ -1,5 +1,7 @@
 # Noordwerk · AI Transformation Consulting Playbook
 
+**Start here: [Portfolio completion](PORTFOLIO_FINAL.md) · [Five- and ten-minute walkthrough](docs/portfolio-walkthrough.md)**
+
 **A decision-led client engagement: discovery, prioritisation, economics, delivery gates and adoption.**
 
 [![Executive decision brief cover](docs/assets/executive-cover.png)](deliverables/noordwerk-executive-brief.pdf)
@@ -29,7 +31,7 @@ assumptions, not measured business outcomes or current Microsoft prices.
 | Process design | [AS-IS / TO-BE BPMN](process/), [visual architecture](docs/assets/architecture.svg) | Route work and handle exceptions |
 | Investment case | [Cost drivers and ramp](docs/financial-assumptions.md), [monthly output](output/investment-case.json) | Separate capacity, realised value, cost and timing |
 | Prioritisation | [Use-case CSV](data/use-cases.csv), [gated scoring](playbook.py) | Block unsafe cases regardless of attractive score |
-| Delivery and adoption | [Roadmap / RACI](docs/delivery-roadmap.md), [KPI / training plan](docs/adoption-and-measurement.md) | Define accountable exit criteria |
+| Delivery and adoption | [Current gated roadmap](docs/requirements-and-roadmap.md), [RACI](docs/delivery-roadmap.md), [KPI / training plan](docs/adoption-and-measurement.md) | Define accountable exit criteria |
 | Interview preparation | [English walkthroughs](docs/interview-guide.md) | Explain consulting and technical tradeoffs |
 
 The PDF is a rendered decision presentation with a real Hub screenshot, architecture,
@@ -43,7 +45,7 @@ working material; its immediate-benefit economics should not replace the new ram
 ![Discovery through gated pilot decision](docs/assets/architecture.svg)
 
 Discovery separates facts, assumptions and decisions. Hard gates reject use cases with
-no human owner, no data permission, or unacceptable risk. The model then compares value,
+no human owner, no data permission, or unacceptable risk. The deterministic scoring function compares value,
 feasibility and readiness. Rules-based routing comes before AI because no language model
 is needed to apply a category and amount threshold.
 
@@ -109,7 +111,7 @@ selectable text but is not tagged for full accessible-PDF compliance.
 [Portfolio strategy](docs/portfolio-strategy.md). No fourth standalone application is
 required: the Hub includes a unified portfolio view and links to these deliverables.
 
-## Release candidate — 30 October 2026
+## Noordwerk Portfolio v1.0 — Showcase Candidate
 
 See [local release notes](RELEASE_NOTES.md), [the release-candidate verification](RELEASE_VERIFICATION.md), and [code/debugging preparation](docs/code-and-practice.md).
 The business-facing entry point is the [Consulting Playbook](https://github.com/phlppgdfry/ai-transformation-consulting-playbook/tree/portfolio/noordwerk-showcase). Historical reports retain their original dates and counts.
