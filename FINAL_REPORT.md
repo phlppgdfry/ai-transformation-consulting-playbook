@@ -181,3 +181,29 @@ index.html/app.js/app.css were checked. Machine-neutral results: `output/release
 These are new checkouts on the same Mac, not an isolated new operating system. Hosted
 Linux checks remain separately recorded. Later source whitespace/provenance-only changes
 do not change the implementation exercised by these commands.
+
+## Hosted GitHub validation appendix
+
+Actual PR-triggered Ubuntu 24.04 runs completed successfully, not merely configured.
+Machine-readable job/step conclusions and filtered log evidence: `output/hosted-validation.json`.
+
+| Repository / tested implementation | Draft PR | Executed checks | Run |
+|---|---|---|---|
+| Hub c74fff6 | [Draft #1](https://github.com/phlppgdfry/enterprise-ai-automation-hub/pull/1) | Build, 16 HTTP/storage tests, process/contract/docs/history checks | [Verify PASS](https://github.com/phlppgdfry/enterprise-ai-automation-hub/actions/runs/41001725223) |
+| Hub c74fff6 | Same draft | npm audit, installed Chromium, desktop/mobile/reduced motion/keyboard/negative ownership/outage | [Browser PASS](https://github.com/phlppgdfry/enterprise-ai-automation-hub/actions/runs/41001725219) |
+| Agent dfff423 | [Draft #1](https://github.com/phlppgdfry/enterprise-ai-agent-governance/pull/1) | 27 tests, 30 deterministic cases, generated reports, docs/history | [Verify PASS](https://github.com/phlppgdfry/enterprise-ai-agent-governance/actions/runs/41001733731) |
+| Agent dfff423 | Same draft | Real confirmed HTTP create/retry/Bob denial/Maria decision against pinned Hub c74fff6 | [Integration PASS](https://github.com/phlppgdfry/enterprise-ai-agent-governance/actions/runs/41001733611) |
+| Playbook 8e0daee | [Draft #1](https://github.com/phlppgdfry/ai-transformation-consulting-playbook/pull/1) | 17 tests, financial/report/docs/history checks | [Verify PASS](https://github.com/phlppgdfry/ai-transformation-consulting-playbook/actions/runs/41001739873) |
+
+The hosted browser artifact was downloaded and its desktop/mobile captures inspected.
+No hosted workflow failed in this publication cycle. Non-failing warnings concern
+older pinned action majors being run under GitHub's Node 24 compatibility policy;
+refreshing reviewed action-major pins can be a separate maintenance change.
+Actual model inference and PDF generation were NOT EXECUTED on hosted runners. Model
+quality remains FAIL from local measured runs; CI green must not conceal that result.
+
+All three PRs are OPEN/DRAFT. All three repositories remain PUBLIC with explicit owner
+consent. Main heads were rechecked and equal their original 09a98a4 / 9452be6 / 87fceff
+baselines. No merge, main push, force push, visibility change, release, package or cloud
+deployment occurred. Later documentation-only commits record this validation snapshot;
+current PR checks provide validation for their own exact head hashes.

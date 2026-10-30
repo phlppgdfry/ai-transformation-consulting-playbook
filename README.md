@@ -47,8 +47,8 @@ no human owner, no data permission, or unacceptable risk. The model then compare
 feasibility and readiness. Rules-based routing comes before AI because no language model
 is needed to apply a category and amount threshold.
 
-The [Automation Hub](https://github.com/phlppgdfry/enterprise-ai-automation-hub) demonstrates
-an employee-to-reviewer workflow. [Agent Governance](https://github.com/phlppgdfry/enterprise-ai-agent-governance)
+The [Automation Hub](https://github.com/phlppgdfry/enterprise-ai-automation-hub/tree/portfolio/noordwerk-showcase) demonstrates
+an employee-to-reviewer workflow. [Agent Governance](https://github.com/phlppgdfry/enterprise-ai-agent-governance/tree/portfolio/noordwerk-showcase)
 separately investigates policy evidence selection and documents its failed quality gate.
 Microsoft tenant implementation is a target design; no Noordwerk deployment is claimed.
 
@@ -103,8 +103,8 @@ selectable text but is not tagged for full accessible-PDF compliance.
 
 ## One client, three complementary cases
 
-**Decide: this playbook** → [Deliver: Automation Hub](https://github.com/phlppgdfry/enterprise-ai-automation-hub)
-→ [Govern: Agent Governance](https://github.com/phlppgdfry/enterprise-ai-agent-governance).
+**Decide: this playbook** → [Deliver: Automation Hub](https://github.com/phlppgdfry/enterprise-ai-automation-hub/tree/portfolio/noordwerk-showcase)
+→ [Govern: Agent Governance](https://github.com/phlppgdfry/enterprise-ai-agent-governance/tree/portfolio/noordwerk-showcase).
 
 [Portfolio strategy](docs/portfolio-strategy.md). No fourth standalone application is
 required: the Hub includes a unified portfolio view and links to these deliverables.

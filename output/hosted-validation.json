@@ -1,0 +1,318 @@
+[
+  {
+    "repo": "enterprise-ai-automation-hub",
+    "run_id": 41001725223,
+    "status": "completed",
+    "conclusion": "success",
+    "head_sha": "c74fff699e099b0edc7890a8cc4c2e924f847b2b",
+    "url": "https://github.com/phlppgdfry/enterprise-ai-automation-hub/actions/runs/41001725223",
+    "jobs": [
+      {
+        "name": "verify",
+        "conclusion": "success",
+        "steps": [
+          {
+            "name": "Set up job",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run make verify",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "conclusion": "success"
+          },
+          {
+            "name": "Complete job",
+            "conclusion": "success"
+          }
+        ]
+      }
+    ],
+    "log_summary": [
+      "2026-10-30T04:14:00.6575744Z Build succeeded.",
+      "2026-10-30T04:14:08.9041988Z Ran 16 tests in 7.990s",
+      "2026-10-30T04:14:09.0164797Z PASS: offline API refs/surface and illustrative deployment-settings shape; tenant import NOT EXECUTED",
+      "2026-10-30T04:14:09.0505858Z Local documentation targets and JSON: OK",
+      "2026-10-30T04:14:09.4472502Z PASS: 63 tracked paths; 86 historical blobs; JSON/XML/action pins and limited credential patterns"
+    ]
+  },
+  {
+    "repo": "enterprise-ai-automation-hub",
+    "run_id": 41001725219,
+    "status": "completed",
+    "conclusion": "success",
+    "head_sha": "c74fff699e099b0edc7890a8cc4c2e924f847b2b",
+    "url": "https://github.com/phlppgdfry/enterprise-ai-automation-hub/actions/runs/41001725219",
+    "jobs": [
+      {
+        "name": "browser",
+        "conclusion": "success",
+        "steps": [
+          {
+            "name": "Set up job",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm ci --ignore-scripts",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm audit --audit-level=high",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npx playwright install --with-deps chromium",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run dotnet build src/AutomationHub.csproj --configuration Release",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm run check:ui",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run npm run test:browser",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "conclusion": "success"
+          },
+          {
+            "name": "Complete job",
+            "conclusion": "success"
+          }
+        ]
+      }
+    ],
+    "log_summary": [
+      "2026-10-30T04:13:57.3024120Z found 0 vulnerabilities",
+      "2026-10-30T04:13:57.6317152Z found 0 vulnerabilities",
+      "2026-10-30T04:14:25.9596950Z Build succeeded.",
+      "2026-10-30T04:14:32.1714266Z   \"passed\": ["
+    ]
+  },
+  {
+    "repo": "enterprise-ai-agent-governance",
+    "run_id": 41001733731,
+    "status": "completed",
+    "conclusion": "success",
+    "head_sha": "dfff4236cbfa8f3a0378446dd72794fe9204a7fd",
+    "url": "https://github.com/phlppgdfry/enterprise-ai-agent-governance/actions/runs/41001733731",
+    "jobs": [
+      {
+        "name": "verify",
+        "conclusion": "success",
+        "steps": [
+          {
+            "name": "Set up job",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run make verify",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "conclusion": "success"
+          },
+          {
+            "name": "Complete job",
+            "conclusion": "success"
+          }
+        ]
+      }
+    ],
+    "log_summary": [
+      "2026-10-30T04:14:01.4973511Z Ran 27 tests in 0.016s",
+      "2026-10-30T04:14:01.6381670Z   \"passed\": 30",
+      "2026-10-30T04:14:01.6768320Z Local documentation targets and JSON: OK",
+      "2026-10-30T04:14:01.9926317Z PASS: 59 tracked paths; 74 historical blobs; JSON/XML/action pins and limited credential patterns"
+    ]
+  },
+  {
+    "repo": "enterprise-ai-agent-governance",
+    "run_id": 41001733611,
+    "status": "completed",
+    "conclusion": "success",
+    "head_sha": "dfff4236cbfa8f3a0378446dd72794fe9204a7fd",
+    "url": "https://github.com/phlppgdfry/enterprise-ai-agent-governance/actions/runs/41001733611",
+    "jobs": [
+      {
+        "name": "integration",
+        "conclusion": "success",
+        "steps": [
+          {
+            "name": "Set up job",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run dotnet build hub/src/AutomationHub.csproj --configuration Release",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run python3 agent/scripts/verify_hub.py --hub hub",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "conclusion": "success"
+          },
+          {
+            "name": "Complete job",
+            "conclusion": "success"
+          }
+        ]
+      }
+    ],
+    "log_summary": [
+      "2026-10-30T04:14:11.2842193Z Build succeeded.",
+      "2026-10-30T04:14:12.8133992Z   \"owner_isolation\": \"404 for Bob\","
+    ]
+  },
+  {
+    "repo": "ai-transformation-consulting-playbook",
+    "run_id": 41001739873,
+    "status": "completed",
+    "conclusion": "success",
+    "head_sha": "8e0daee74e8723005f6e466d24edb4958a5a7459",
+    "url": "https://github.com/phlppgdfry/ai-transformation-consulting-playbook/actions/runs/41001739873",
+    "jobs": [
+      {
+        "name": "verify",
+        "conclusion": "success",
+        "steps": [
+          {
+            "name": "Set up job",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run make verify",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "conclusion": "success"
+          },
+          {
+            "name": "Complete job",
+            "conclusion": "success"
+          }
+        ]
+      }
+    ],
+    "log_summary": [
+      "2026-10-30T04:14:04.4031032Z Ran 17 tests in 0.010s",
+      "2026-10-30T04:14:04.4688322Z Local documentation targets and JSON: OK",
+      "2026-10-30T04:14:04.8590011Z PASS: 65 tracked paths; 79 historical blobs; JSON/XML/action pins and limited credential patterns"
+    ]
+  }
+]
