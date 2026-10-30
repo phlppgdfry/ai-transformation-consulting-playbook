@@ -19,3 +19,7 @@ Poppler rendering. Every client observation and financial input is synthetic.
 
 [Verification](VERIFICATION.md) records executed commands and limitations.
 [Transformation report](TRANSFORMATION_REPORT.md) separates finished work from dependencies.
+
+## Release candidate delta — 30 October 2026
+
+The prior matrix is historical. [Release verification](RELEASE_VERIFICATION.md) records current pass/fail and unexecuted boundaries. [Release notes](RELEASE_NOTES.md) identify new implementation and preserved limitations. Hosted CI is recorded only after execution.

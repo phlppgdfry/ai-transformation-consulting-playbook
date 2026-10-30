@@ -79,7 +79,7 @@ pdftoppm -scale-to 1100 -png deliverables/noordwerk-executive-brief.pdf /tmp/noo
 
 ## Tests and evidence
 
-**15 tests** cover the original formulas, NaN/infinity/boolean rejection, hard gates,
+**17 tests** cover the original formulas, NaN/infinity/boolean rejection, hard gates,
 reconciled costs, ramp behaviour, no-adoption economics, sensitivity and committed-report
 consistency. Documentation and baseline output checks also run in CI.
 
@@ -108,3 +108,10 @@ selectable text but is not tagged for full accessible-PDF compliance.
 
 [Portfolio strategy](docs/portfolio-strategy.md). No fourth standalone application is
 required: the Hub includes a unified portfolio view and links to these deliverables.
+
+## Release candidate — 30 October 2026
+
+See [local release notes](RELEASE_NOTES.md), [the release-candidate verification](RELEASE_VERIFICATION.md), and [code/debugging preparation](docs/code-and-practice.md).
+The business-facing entry point is the [Consulting Playbook](https://github.com/phlppgdfry/ai-transformation-consulting-playbook/tree/portfolio/noordwerk-showcase). Historical reports retain their original dates and counts.
+
+The [seven-phase roadmap and acceptance requirements](docs/requirements-and-roadmap.md) supersede the earlier six-week outline. [Named financial scenarios](output/scenarios.json) preserve base −€7,695 / month 25; conservative and optimistic inputs are explicit planning assumptions. Run `python3 scenarios.py` to reproduce.

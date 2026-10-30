@@ -120,7 +120,7 @@ arrow(295,219,350);arrow(606,219,662)
 line(48,151,912,151,'#7893a4')
 text(48,127,'Tenant gate',12,TEAL,True)
 para(180,138,'Entra identity + queue permissions / Power Apps + Power Automate / Dataverse + protected audit / Copilot Studio + source access / approved HTTPS ingress',720,13)
-text(48,65,'No decision tool is exposed to the model. A recommendation cannot become an approval.',12,TEAL,True)
+text(48,65,'Model gate FAILED: v2 answers supported questions but misses safe abstention. No action tools.',11,TEAL,True)
 end()
 
 page(6,'The economics do not justify immediate rollout','Capacity is an assumption. Only 50% of released capacity is treated as economically realised value.')
@@ -166,7 +166,7 @@ for y,(a,b,d) in zip([351,290,229,168,107],items):
 end()
 
 page(9,'A staged delivery decision','Six weeks is a planning hypothesis. Tenant access, reviewers and confirmed entitlements are dependencies.')
-steps=[('Discover','Baseline, owners, constraints','Sponsor signs scope'),('Prove','Local end-to-end reference','Safety regressions pass'),('Prepare','Identity, data store, ALM','IT accepts Test evidence'),('Pilot','Five employees, training','Measure actual task results'),('Decide','Refresh economics and risks','Scale, simplify or stop')]
+steps=[('Discover','Baseline + process validation','Sponsor signs scope'),('Prototype','Controlled local reference','Safety tests pass'),('Pilot','Identity, training, support','IT accepts Test evidence'),('Evaluate','Independent tasks + quality','Refresh costs and risks'),('Decide','Go/no-go, conditional rollout','Scale, simplify or stop')]
 for i,(a,b,d) in enumerate(steps):
     x=48+i*175
     text(x,353,str(i+1),28,TEAL,True);text(x,307,a,18,NAV,True)
