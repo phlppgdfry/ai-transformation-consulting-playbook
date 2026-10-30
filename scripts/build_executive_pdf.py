@@ -91,7 +91,7 @@ end()
 page(3,'Where the process loses time','Scenario assumptions: 140 employees, 600 requests a month. Baseline observations still need to be collected.')
 text(48,359,'Current process',18,NAV,True)
 for x,t,b in [(48,'Email intake','Missing category or amount'),(342,'Find an owner','Unclear queue and follow-up'),(636,'Reconcile decisions','Approval buried in messages')]:
-    node(x,253,255,t,b); 
+    node(x,253,255,t,b);
 arrow(310,289,332);arrow(604,289,626)
 text(48,210,'Proposed process',18,TEAL,True)
 for x,t,b in [(48,'Validated request','Employee confirms the details'),(342,'Deterministic routing','IT / Finance / Operations'),(636,'Human decision','Reason, version and audit event')]:

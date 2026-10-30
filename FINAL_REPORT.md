@@ -171,3 +171,13 @@ Authorized: these three feature branches, draft PRs and hosted CI/fixes. Still r
 new approval: merge, main push, visibility change, public release, package publication,
 deployment, cloud/tenant changes, paid service use and notifications to real recipients.
 Actual branch/PR/run URLs and final status are recorded in the appendices after execution.
+
+## Clean-checkout appendix
+
+PASS: fresh local clones at Hub c74fff6, Agent dfff423 and Playbook 51f5378, new Python
+virtual environment, all make verify suites, npm ci, browser journey without a global
+module override, real cross-repo HTTP integration and dotnet publish. Packaged DLL plus
+index.html/app.js/app.css were checked. Machine-neutral results: `output/release-local-checks.json`.
+These are new checkouts on the same Mac, not an isolated new operating system. Hosted
+Linux checks remain separately recorded. Later source whitespace/provenance-only changes
+do not change the implementation exercised by these commands.
