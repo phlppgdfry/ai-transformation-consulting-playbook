@@ -110,7 +110,7 @@ merely because they are possible.
 
 Pin these three existing repositories, ordered Playbook → Hub → Agent. Until the owner
 merges, use the candidate branch links above when sharing: repository landing pages still
-show their unchanged default-branch READMEs. Suggested metadata (recommendations only):
+show their unchanged default-branch READMEs. Historical metadata recommendations:
 
 | Repository | Description | Topics |
 |---|---|---|
@@ -118,7 +118,9 @@ show their unchanged default-branch READMEs. Suggested metadata (recommendations
 | Hub | Local .NET request and human-approval workspace with tested ownership, safe retries, persistent history and a Microsoft integration handoff. | dotnet, aspnet-core, workflow-automation, business-analysis, power-platform, portfolio |
 | Agent | Deterministic policy reference and experimental local-model evaluations with frozen quality gates, safe tool boundaries and preserved failures. | ai-evaluation, ai-governance, ollama, python, portfolio |
 
-No metadata, profile pins or visibility changes were made. No owner action is required
+The final publication pass applied owner-authorized descriptions and additional topics,
+retaining existing topics. Profile pins and visibility were not changed. See the current
+[v1 closure and merge handoff](NOORDWERK_V1_CLOSURE.md). No owner action is required
 to use the reviewed branches as a portfolio candidate. If incorporating into default
 branches later: review each draft and exact-head checks; merge Hub first, then Agent and
 Playbook; preserve the reviewed history and pinned Hub integration commit; update candidate
