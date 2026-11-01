@@ -1,0 +1,25 @@
+{
+  "disclaimer": "Fictional budgeting allowances, not vendor quotes or measured costs. EUR excluding tax.",
+  "implementation": {
+    "discovery_and_process_design": 1500,
+    "workflow_and_api_delivery": 5500,
+    "security_and_release_testing": 1800,
+    "adoption_and_handover": 1200,
+    "contingency": 2000
+  },
+  "monthly": {
+    "incremental_licensing_allowance": 110,
+    "ai_consumption_allowance": 20,
+    "hosting_and_monitoring": 40,
+    "maintenance_and_support": 180
+  },
+  "drivers": {
+    "licensing": "5 pilot employees plus reviewers; confirm existing entitlements, connector premium rights and capacity. EUR 110 is an aggregate allowance, not a per-seat Microsoft price.",
+    "ai": "200 policy questions/month at assumed EUR 0.10 all-in allowance per question. Replace with measured tokens/credits and a dated quote. Local evaluation tokens do not establish cloud cost.",
+    "maintenance": "4 hours/month at fictional internal EUR 45/hour. Include failed-flow triage, source review and access changes.",
+    "hosting": "Aggregate EUR 40/month planning allowance; not an Azure SKU or quote. Validate ingress, data storage, logs, backups and support.",
+    "implementation": "Budget ceiling includes security, training and contingency. Does not imply a production implementation is deliverable for this price."
+  },
+  "ramp_adoption": [0, 0, 0.2, 0.4],
+  "horizon_months": 36
+}
