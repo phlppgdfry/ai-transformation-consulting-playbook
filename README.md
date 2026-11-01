@@ -10,6 +10,13 @@ Noordwerk is a **fictional** 140-person technical services company. This indepen
 portfolio exercise contains synthetic workshops, assumptions and decisions. It does
 not claim a real customer, facilitated engagement, deployment or realised saving.
 
+This portfolio was developed and refined with AI coding-assistant support, including
+implementation, documentation and verification work. The repository evidence demonstrates
+the resulting artifacts and executed checks; it does not establish unaided authorship,
+individual mastery or professional client experience. Use the
+[code knowledge and practice guide](docs/code-and-practice.md) to inspect, reproduce and
+explain the work before presenting it as a personal skills demonstration.
+
 ## The business decision
 
 The company needs a reliable route for material, expense and access requests. The
