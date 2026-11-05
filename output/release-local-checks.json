@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-30",
+  "environment": "Fresh same-Mac clones; new Python venv; .NET 10; locked Playwright 1.63.0; no PLAYWRIGHT_MODULE override",
+  "tested_commits": {
+    "hub": "c74fff699e099b0edc7890a8cc4c2e924f847b2b",
+    "agent": "dfff4236cbfa8f3a0378446dd72794fe9204a7fd",
+    "playbook": "51f5378"
+  },
+  "checks": [
+    {
+      "name": "clone-enterprise-ai-automation-hub",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "clone-enterprise-ai-agent-governance",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "clone-ai-transformation-consulting-playbook",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "venv",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "verify-enterprise-ai-automation-hub",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "verify-enterprise-ai-agent-governance",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "verify-ai-transformation-consulting-playbook",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "npm-ci",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "browser",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "real-integration",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "package",
+      "status": "PASS",
+      "exit_code": 0
+    }
+  ],
+  "package_files": [
+    "AutomationHub.dll",
+    "wwwroot/index.html",
+    "wwwroot/app.js",
+    "wwwroot/app.css"
+  ],
+  "limitations": [
+    "Same host, not a clean OS image",
+    "Linux validation requires hosted Actions",
+    "Real-model quality is FAIL and not part of deterministic CI"
+  ]
+}
