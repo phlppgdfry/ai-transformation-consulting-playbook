@@ -73,6 +73,8 @@ by this pass. Proposed new-document links explicitly require prior branch public
 | Website browser | PASS, Chromium 1440×1000 / 390×844, three cards/assets, visible limitations, no page overflow, Dutch warning; [report](docs/portfolio/assets/website-preview-report.json) |
 | Visual review | Existing Hub overview/approval/cover inspected; new website captures, SVG renders and CLI output inspected |
 | Markdown/local assets | Existing checkers resolve authored local targets; standard Markdown tables/images; no new Mermaid syntax |
+| Entry-document Markdown rendering | PASS: five README/narrative/summary documents rendered through GitHub's non-publishing GFM endpoint |
+| Current external navigation | PASS: 18 current public links; four new review-document links classified pending publication, not falsely passed |
 | Hosted CI | Published main runs below passed; new local showcase branches NOT EXECUTED on GitHub |
 | Real-model evaluation | NOT EXECUTED anew; preserved failed results, no tuning |
 

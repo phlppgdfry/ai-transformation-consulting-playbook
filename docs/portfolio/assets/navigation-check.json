@@ -1,0 +1,82 @@
+{
+  "executed": [
+    {
+      "url": "https://github.com/phlppgdfry/ai-transformation-consulting-playbook",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/phlppgdfry/ai-transformation-consulting-playbook/blob/main/PORTFOLIO_FINAL.md",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/phlppgdfry/ai-transformation-consulting-playbook/blob/main/docs/portfolio-walkthrough.md",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/phlppgdfry/ai-transformation-consulting-playbook/tree/main",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/phlppgdfry/enterprise-ai-agent-governance",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/phlppgdfry/enterprise-ai-agent-governance/blob/main/docs/model-architecture.md",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/phlppgdfry/enterprise-ai-agent-governance/blob/main/eval/RELEASE_REPORT.md",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/phlppgdfry/enterprise-ai-agent-governance/tree/main",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/phlppgdfry/enterprise-ai-automation-hub",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/phlppgdfry/enterprise-ai-automation-hub/blob/main/docs/architecture.md",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/phlppgdfry/enterprise-ai-automation-hub/blob/main/docs/assets/hub-approval.png",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/phlppgdfry/enterprise-ai-automation-hub/blob/main/docs/assets/hub-mobile-reduced-motion.png",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/phlppgdfry/enterprise-ai-automation-hub/blob/main/docs/assets/hub-overview.png",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/phlppgdfry/enterprise-ai-automation-hub/blob/main/src/Program.cs",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/phlppgdfry/enterprise-ai-automation-hub/tree/main",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/phlppgdfry/enterprise-ai-automation-hub/tree/main/power-platform",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-agent-governance/main/docs/assets/architecture.svg",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-automation-hub/main/docs/assets/architecture.svg",
+      "status": 200
+    }
+  ],
+  "pending_review_branch_publication": [
+    "https://github.com/phlppgdfry/ai-transformation-consulting-playbook/blob/main/docs/portfolio/PORTFOLIO_NARRATIVE.md",
+    "https://github.com/phlppgdfry/enterprise-ai-agent-governance/blob/showcase/recruiter-evidence/docs/assets/agent-authority.png",
+    "https://github.com/phlppgdfry/enterprise-ai-agent-governance/blob/showcase/recruiter-evidence/docs/assets/agent-integration.png",
+    "https://github.com/phlppgdfry/enterprise-ai-agent-governance/blob/showcase/recruiter-evidence/docs/assets/agent-policy.png"
+  ]
+}
