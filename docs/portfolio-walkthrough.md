@@ -1,6 +1,6 @@
 # One Noordwerk case, three audiences
 
-**Noordwerk Portfolio v1.0 — Showcase Candidate.** A fictional 140-person technical
+**Noordwerk Portfolio v1.0 — Published reference.** A fictional 140-person technical
 services company needs a clearer route for materials, expenses and application-access
 requests. This is inspectable portfolio work, not evidence of employment, real workshops,
 customer deployment or realised savings. Start at [the completion record](../PORTFOLIO_FINAL.md).
@@ -17,8 +17,8 @@ value and recommends discovery plus a bounded rules-only pilot rather than full 
 | Audience | What to inspect | Evidence-backed conclusion |
 |---|---|---|
 | Business / Functional Analyst | [Requirements and acceptance](requirements-and-roadmap.md), [BPMN](../process/), [stakeholders](case-brief.md), [investment assumptions](financial-assumptions.md), [adoption](adoption-and-measurement.md) | Trace the problem through rules, owner, acceptance test, cost and go/no-go decision |
-| AI & Automation Consultant | [Agent evaluation](https://github.com/phlppgdfry/enterprise-ai-agent-governance/blob/portfolio/noordwerk-showcase/eval/RELEASE_REPORT.md), [quality gates](https://github.com/phlppgdfry/enterprise-ai-agent-governance/blob/portfolio/noordwerk-showcase/eval/QUALITY_GATES.md), [Microsoft boundary](https://github.com/phlppgdfry/enterprise-ai-automation-hub/blob/portfolio/noordwerk-showcase/power-platform/README.md) | Explain rules versus AI, poor abstention, human authority and unverified tenant work |
-| Technical reviewer | [Hub source](https://github.com/phlppgdfry/enterprise-ai-automation-hub/blob/portfolio/noordwerk-showcase/src/Program.cs), [HTTP/storage tests](https://github.com/phlppgdfry/enterprise-ai-automation-hub/tree/portfolio/noordwerk-showcase/tests), [code map](code-and-practice.md), [reproducibility](reproducibility.md) | Inspect owner checks, idempotency, atomic replacement, conflicts, recovery and exact test boundaries |
+| AI & Automation Consultant | [Agent evaluation](https://github.com/phlppgdfry/enterprise-ai-agent-governance/blob/main/eval/RELEASE_REPORT.md), [quality gates](https://github.com/phlppgdfry/enterprise-ai-agent-governance/blob/main/eval/QUALITY_GATES.md), [Microsoft boundary](https://github.com/phlppgdfry/enterprise-ai-automation-hub/blob/main/power-platform/README.md) | Explain rules versus AI, poor abstention, human authority and unverified tenant work |
+| Technical reviewer | [Hub source](https://github.com/phlppgdfry/enterprise-ai-automation-hub/blob/main/src/Program.cs), [HTTP/storage tests](https://github.com/phlppgdfry/enterprise-ai-automation-hub/tree/main/tests), [code map](code-and-practice.md), [reproducibility](reproducibility.md) | Inspect owner checks, idempotency, atomic replacement, conflicts, recovery and exact test boundaries |
 
 ## Five-minute demonstration
 

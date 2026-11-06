@@ -1,5 +1,10 @@
 # Noordwerk · AI Transformation Consulting Playbook
 
+**Enterprise AI — Strategy, Automation, Governance & Evaluation**
+
+For recruiters, analysts and technical reviewers: [one-page narrative](docs/portfolio/PORTFOLIO_NARRATIVE.md),
+[demo choices](docs/portfolio/DEMO_STRATEGY.md) and [interview preparation](docs/portfolio/INTERVIEW_PREPARATION.md).
+
 **Start here: [Portfolio completion](PORTFOLIO_FINAL.md) · [Five- and ten-minute walkthrough](docs/portfolio-walkthrough.md)**
 
 **A decision-led client engagement: discovery, prioritisation, economics, delivery gates and adoption.**
@@ -56,8 +61,8 @@ no human owner, no data permission, or unacceptable risk. The deterministic scor
 feasibility and readiness. Rules-based routing comes before AI because no language model
 is needed to apply a category and amount threshold.
 
-The [Automation Hub](https://github.com/phlppgdfry/enterprise-ai-automation-hub/tree/portfolio/noordwerk-showcase) demonstrates
-an employee-to-reviewer workflow. [Agent Governance](https://github.com/phlppgdfry/enterprise-ai-agent-governance/tree/portfolio/noordwerk-showcase)
+The [Automation Hub](https://github.com/phlppgdfry/enterprise-ai-automation-hub/tree/main) demonstrates
+an employee-to-reviewer workflow. [Agent Governance](https://github.com/phlppgdfry/enterprise-ai-agent-governance/tree/main)
 separately investigates policy evidence selection and documents its failed quality gate.
 Microsoft tenant implementation is a target design; no Noordwerk deployment is claimed.
 
@@ -112,15 +117,15 @@ selectable text but is not tagged for full accessible-PDF compliance.
 
 ## One client, three complementary cases
 
-**Decide: this playbook** → [Deliver: Automation Hub](https://github.com/phlppgdfry/enterprise-ai-automation-hub/tree/portfolio/noordwerk-showcase)
-→ [Govern: Agent Governance](https://github.com/phlppgdfry/enterprise-ai-agent-governance/tree/portfolio/noordwerk-showcase).
+**Decide: this playbook** → [Deliver: Automation Hub](https://github.com/phlppgdfry/enterprise-ai-automation-hub/tree/main)
+→ [Govern: Agent Governance](https://github.com/phlppgdfry/enterprise-ai-agent-governance/tree/main).
 
 [Portfolio strategy](docs/portfolio-strategy.md). No fourth standalone application is
 required: the Hub includes a unified portfolio view and links to these deliverables.
 
-## Noordwerk Portfolio v1.0 — Showcase Candidate
+## Noordwerk Portfolio v1.0 — published reference
 
 See [local release notes](RELEASE_NOTES.md), [the release-candidate verification](RELEASE_VERIFICATION.md), and [code/debugging preparation](docs/code-and-practice.md).
-The business-facing entry point is the [Consulting Playbook](https://github.com/phlppgdfry/ai-transformation-consulting-playbook/tree/portfolio/noordwerk-showcase). Historical reports retain their original dates and counts.
+The business-facing entry point is the [Consulting Playbook](https://github.com/phlppgdfry/ai-transformation-consulting-playbook/tree/main). Historical reports retain their original dates and counts.
 
 The [seven-phase roadmap and acceptance requirements](docs/requirements-and-roadmap.md) supersede the earlier six-week outline. [Named financial scenarios](output/scenarios.json) preserve base −€7,695 / month 25; conservative and optimistic inputs are explicit planning assumptions. Run `python3 scenarios.py` to reproduce.
