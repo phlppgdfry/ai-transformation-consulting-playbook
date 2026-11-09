@@ -165,15 +165,20 @@ for y,(a,b,d) in zip([351,290,229,168,107],items):
     text(48,y,a,16,NAV,True);text(270,y,b,12,TEAL,True);para(445,y+11,d,465,13);line(48,y-23,912,y-23)
 end()
 
-page(9,'A staged delivery decision','Six weeks is a planning hypothesis. Tenant access, reviewers and confirmed entitlements are dependencies.')
-steps=[('Discover','Baseline + process validation','Sponsor signs scope'),('Prototype','Controlled local reference','Safety tests pass'),('Pilot','Identity, training, support','IT accepts Test evidence'),('Evaluate','Independent tasks + quality','Refresh costs and risks'),('Decide','Go/no-go, conditional rollout','Scale, simplify or stop')]
-for i,(a,b,d) in enumerate(steps):
-    x=48+i*175
-    text(x,353,str(i+1),28,TEAL,True);text(x,307,a,18,NAV,True)
-    para(x,279,b,145,13,MUTED)
-    line(x,206,x+145,206)
-    para(x,184,d,145,12,NAV)
-para(48,111,'Operational handover: named owner and deputy, source review cadence, support channel, incident response, reconciled pending requests and a tested restore procedure.',850,15)
+page(9,'Seven gated delivery phases','Decision sequence, not a six-week promise. Tenant access, reviewers and confirmed entitlements remain dependencies.')
+text(48,365,'Phase',12,TEAL,True);text(290,365,'Work / evidence',12,TEAL,True);text(615,365,'Exit decision',12,TEAL,True)
+steps=[('0  Discovery','Baseline, rights and licensing','Signed problem, owner and budget'),
+       ('1  Process validation','AS-IS / TO-BE rules and exceptions','Staff and Finance agree the process'),
+       ('2  Controlled prototype','Synthetic workflow and frozen model tests','Reproducible; model status disclosed'),
+       ('3  Limited pilot','Five users; real identity and recovery','IT accepts access and recovery tests'),
+       ('4  Independent evaluation','Held-out tasks, relevance, time and cost','Independent quality and value review'),
+       ('5  Go / no-go','Compare measured value, risk and cap','Scale, simplify, defer or stop'),
+       ('6  Conditional rollout','Small cohorts, training and rollback','Expand only while thresholds hold')]
+for i,(phase,work,gate) in enumerate(steps):
+    y=337-i*32
+    text(48,y,phase,12,NAV,True);text(290,y,work,11,MUTED);text(615,y,gate,11,NAV)
+    line(48,y-11,912,y-11)
+para(48,108,'Source: docs/requirements-and-roadmap.md. Tenant pilot and rollout have not been executed. Handover requires a named owner and deputy, incident response and a tested restore procedure.',850,13)
 end()
 
 page(10,'Approve the learning, then earn the rollout','A bounded pilot is valuable only if it can lead to a well-supported stop decision.',dark=True)

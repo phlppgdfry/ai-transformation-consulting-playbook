@@ -1,0 +1,265 @@
+{
+  "old": {
+    "counts": {
+      "info": 0,
+      "low": 0,
+      "moderate": 7,
+      "high": 17,
+      "critical": 2,
+      "total": 26
+    },
+    "packages": [
+      {
+        "name": "@humanfs/node",
+        "severity": "moderate",
+        "direct": false,
+        "affectedRange": "<0.16.8",
+        "fixAvailable": true
+      },
+      {
+        "name": "@remix-run/router",
+        "severity": "high",
+        "direct": false,
+        "affectedRange": "<=1.23.2",
+        "fixAvailable": true
+      },
+      {
+        "name": "@tailwindcss/typography",
+        "severity": "moderate",
+        "direct": true,
+        "affectedRange": "<=0.0.0-insiders.fda8ce5 || >=0.5.5",
+        "fixAvailable": {
+          "name": "@tailwindcss/typography",
+          "version": "0.5.4",
+          "isSemVerMajor": true
+        }
+      },
+      {
+        "name": "@vitest/mocker",
+        "severity": "moderate",
+        "direct": false,
+        "affectedRange": "<=4.1.11",
+        "fixAvailable": {
+          "name": "vitest",
+          "version": "5.1.0",
+          "isSemVerMajor": true
+        }
+      },
+      {
+        "name": "ajv",
+        "severity": "moderate",
+        "direct": false,
+        "affectedRange": "<6.14.0",
+        "fixAvailable": true
+      },
+      {
+        "name": "brace-expansion",
+        "severity": "high",
+        "direct": false,
+        "affectedRange": "<=1.1.20 || 2.0.0 - 2.1.6",
+        "fixAvailable": true
+      },
+      {
+        "name": "browserslist",
+        "severity": "high",
+        "direct": false,
+        "affectedRange": "<=4.28.6",
+        "fixAvailable": true
+      },
+      {
+        "name": "esbuild",
+        "severity": "moderate",
+        "direct": false,
+        "affectedRange": "<=0.24.2",
+        "fixAvailable": true
+      },
+      {
+        "name": "flatted",
+        "severity": "high",
+        "direct": false,
+        "affectedRange": "<=3.4.1",
+        "fixAvailable": true
+      },
+      {
+        "name": "glob",
+        "severity": "high",
+        "direct": false,
+        "affectedRange": "9.0.0 - 14.0.1",
+        "fixAvailable": true
+      },
+      {
+        "name": "js-yaml",
+        "severity": "high",
+        "direct": false,
+        "affectedRange": "4.0.0 - 4.3.1",
+        "fixAvailable": true
+      },
+      {
+        "name": "lodash",
+        "severity": "high",
+        "direct": false,
+        "affectedRange": "4.0.0 - 4.17.23",
+        "fixAvailable": true
+      },
+      {
+        "name": "minimatch",
+        "severity": "high",
+        "direct": false,
+        "affectedRange": "<=3.1.3 || 7.0.0 - 11.0.0",
+        "fixAvailable": true
+      },
+      {
+        "name": "nanoid",
+        "severity": "high",
+        "direct": false,
+        "affectedRange": "<=3.3.17",
+        "fixAvailable": true
+      },
+      {
+        "name": "picomatch",
+        "severity": "high",
+        "direct": false,
+        "affectedRange": "<=2.3.1",
+        "fixAvailable": true
+      },
+      {
+        "name": "postcss",
+        "severity": "high",
+        "direct": true,
+        "affectedRange": "<=8.5.22",
+        "fixAvailable": true
+      },
+      {
+        "name": "postcss-selector-parser",
+        "severity": "moderate",
+        "direct": false,
+        "affectedRange": "<=6.1.4",
+        "fixAvailable": {
+          "name": "@tailwindcss/typography",
+          "version": "0.5.4",
+          "isSemVerMajor": true
+        }
+      },
+      {
+        "name": "react-router",
+        "severity": "high",
+        "direct": false,
+        "affectedRange": "6.0.0 - 7.17.0",
+        "fixAvailable": true
+      },
+      {
+        "name": "react-router-dom",
+        "severity": "high",
+        "direct": true,
+        "affectedRange": "6.0.0-alpha.0 - 6.30.2",
+        "fixAvailable": true
+      },
+      {
+        "name": "rollup",
+        "severity": "high",
+        "direct": false,
+        "affectedRange": "4.0.0 - 4.58.0",
+        "fixAvailable": true
+      },
+      {
+        "name": "source-map-js",
+        "severity": "high",
+        "direct": false,
+        "affectedRange": "1.0.0 - 1.2.1",
+        "fixAvailable": true
+      },
+      {
+        "name": "tinypool",
+        "severity": "critical",
+        "direct": false,
+        "affectedRange": "<=2.1.1",
+        "fixAvailable": {
+          "name": "vitest",
+          "version": "5.1.0",
+          "isSemVerMajor": true
+        }
+      },
+      {
+        "name": "vite",
+        "severity": "high",
+        "direct": true,
+        "affectedRange": "<=6.4.3",
+        "fixAvailable": true
+      },
+      {
+        "name": "vitest",
+        "severity": "critical",
+        "direct": true,
+        "affectedRange": "0.0.95 - 4.1.10",
+        "fixAvailable": {
+          "name": "vitest",
+          "version": "5.1.0",
+          "isSemVerMajor": true
+        }
+      },
+      {
+        "name": "yaml",
+        "severity": "moderate",
+        "direct": false,
+        "affectedRange": "2.0.0 - 2.8.2",
+        "fixAvailable": true
+      },
+      {
+        "name": "zod",
+        "severity": "high",
+        "direct": true,
+        "affectedRange": "<4.6.6",
+        "fixAvailable": {
+          "name": "zod",
+          "version": "4.6.7",
+          "isSemVerMajor": true
+        }
+      }
+    ]
+  },
+  "current": {
+    "counts": {
+      "info": 0,
+      "low": 0,
+      "moderate": 2,
+      "high": 0,
+      "critical": 0,
+      "total": 2
+    },
+    "packages": [
+      {
+        "name": "react-router",
+        "severity": "moderate",
+        "direct": false,
+        "affectedRange": "6.0.0 - 7.17.0",
+        "fixAvailable": {
+          "name": "react-router-dom",
+          "version": "7.18.5",
+          "isSemVerMajor": true
+        }
+      },
+      {
+        "name": "react-router-dom",
+        "severity": "moderate",
+        "direct": true,
+        "affectedRange": "6.0.0-alpha.0 - 7.17.0",
+        "fixAvailable": {
+          "name": "react-router-dom",
+          "version": "7.18.5",
+          "isSemVerMajor": true
+        }
+      }
+    ]
+  },
+  "final": {
+    "counts": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "packages": []
+  }
+}
