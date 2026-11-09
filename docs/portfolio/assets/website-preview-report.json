@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-06T22:54:05.639Z",
+  "liveSite": {
+    "url": "https://philippegodfroy.com/",
+    "title": "Philippe Godfroy · Digital transformation & AI automation",
+    "hasNoordwerk": 0
+  },
+  "preview": [
+    {
+      "viewport": "1440×1000",
+      "cards": 3,
+      "assets": "loaded",
+      "limitations": "visible"
+    },
+    {
+      "viewport": "390×844",
+      "overflow": false
+    },
+    {
+      "language": "nl",
+      "warning": "visible"
+    }
+  ],
+  "limitations": [
+    "Local preview, not deployed",
+    "Chromium only; no full accessibility or user study",
+    "Native browser bridge failed before navigation; installed Playwright used"
+  ]
+}

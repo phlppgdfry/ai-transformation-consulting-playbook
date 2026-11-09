@@ -1,4 +1,4 @@
-# Noordwerk Portfolio v1.0 — Showcase Candidate
+# Noordwerk Portfolio v1.0 — Published reference
 
 **Portfolio complete for its stated reference scope. Engineering verified locally and
 in hosted CI. Model experiments remain experimental; this is not a production deployment.**
@@ -13,9 +13,9 @@ are synthetic; no client engagement or realised saving is claimed.
 
 | Stage / repository | Actual scope | Final classification |
 |---|---|---|
-| [Decide — Consulting Playbook](https://github.com/phlppgdfry/ai-transformation-consulting-playbook/tree/portfolio/noordwerk-showcase) | Requirements, BPMN, stakeholders, cost/ramp/scenarios, roadmap, adoption and executive PDF | **A — Portfolio-ready** |
-| [Deliver — Automation Hub](https://github.com/phlppgdfry/enterprise-ai-automation-hub/tree/portfolio/noordwerk-showcase) | Employee submission, rule routing, human review, owner-filtered status/history and local persistence | **A — Portfolio-ready** |
-| [Govern — Agent Governance](https://github.com/phlppgdfry/enterprise-ai-agent-governance/tree/portfolio/noordwerk-showcase) | Deterministic reference, confirmed local HTTP tool and genuine local-model evaluation with preserved failures | **B — Technically verified but model-backed features experimental** |
+| [Decide — Consulting Playbook](https://github.com/phlppgdfry/ai-transformation-consulting-playbook/tree/main) | Requirements, BPMN, stakeholders, cost/ramp/scenarios, roadmap, adoption and executive PDF | **A — Portfolio-ready** |
+| [Deliver — Automation Hub](https://github.com/phlppgdfry/enterprise-ai-automation-hub/tree/main) | Employee submission, rule routing, human review, owner-filtered status/history and local persistence | **A — Portfolio-ready** |
+| [Govern — Agent Governance](https://github.com/phlppgdfry/enterprise-ai-agent-governance/tree/main) | Deterministic reference, confirmed local HTTP tool and genuine local-model evaluation with preserved failures | **B — Technically verified but model-backed features experimental** |
 
 There is no material blocker to reviewing this as a portfolio. The failed model gates
 block business use of the model path, not publication of accurately labelled experiments.
@@ -27,7 +27,7 @@ Business/Functional Analyst, AI & Automation Consultant or technical reviewer. I
 five- and ten-minute timings, interview questions and evidence-backed answers.
 
 For a live demonstration, clone the three repositories beside one another and check out
-`portfolio/noordwerk-showcase`. Requirements: .NET 10 SDK, Python 3.11+ and Make. From the Hub:
+`main`. Requirements: .NET 10 SDK, Python 3.11+ and Make. From the Hub:
 
 ```bash
 make verify
@@ -68,7 +68,7 @@ hosted evidence](FINAL_REPORT.md#verification-evidence-and-classification) and c
 checks for exact tested commits. Historical reports retain their dates and must not be
 mistaken for the latest run. The audit records this pass's actual checks and limits.
 
-Drafts: [Hub #1](https://github.com/phlppgdfry/enterprise-ai-automation-hub/pull/1),
+Merged PRs: [Hub #1](https://github.com/phlppgdfry/enterprise-ai-automation-hub/pull/1),
 [Agent #1](https://github.com/phlppgdfry/enterprise-ai-agent-governance/pull/1),
 [Playbook #1](https://github.com/phlppgdfry/ai-transformation-consulting-playbook/pull/1).
 
@@ -88,7 +88,7 @@ rules-only pilot, with measured adoption, cost and an explicit go/no-go decision
 **EXPERIMENTAL — QUALITY GATES NOT PASSED.** The frozen 32-case holdout records v1 at
 4/12 supported questions and 22/32 overall; v2 at 12/12 supported but 21/32 overall.
 V2 worsens abstention and ambiguity. Source-ID validity does not guarantee relevance.
-[Full failure analysis and raw evidence](https://github.com/phlppgdfry/enterprise-ai-agent-governance/blob/portfolio/noordwerk-showcase/eval/RELEASE_REPORT.md)
+[Full failure analysis and raw evidence](https://github.com/phlppgdfry/enterprise-ai-agent-governance/blob/main/eval/RELEASE_REPORT.md)
 remain unchanged. The authored holdout is not independent human validation. Human
 permission and decisions remain outside the model; the model has no action tools.
 
@@ -98,7 +98,7 @@ Public fixture tokens and CLI personas are not real authentication or tenant iso
 The JSON store is adequate for the tested local reference, not replicated production
 storage, protected audit or a verified backup system. Full accessibility/user review,
 Windows validation and independent model review are not complete. Microsoft components
-are [integration designs and offline contracts](https://github.com/phlppgdfry/enterprise-ai-automation-hub/blob/portfolio/noordwerk-showcase/power-platform/README.md),
+are [integration designs and offline contracts](https://github.com/phlppgdfry/enterprise-ai-automation-hub/blob/main/power-platform/README.md),
 not a Noordwerk tenant deployment. These are documented limits, not hidden release claims.
 
 Real identity, tenant licensing, transactional storage and recovery acceptance would be
@@ -108,27 +108,20 @@ merely because they are possible.
 
 ## Suggested GitHub presentation and owner actions
 
-Pin these three existing repositories, ordered Playbook → Hub → Agent. Until the owner
-merges, use the candidate branch links above when sharing: repository landing pages still
-show their unchanged default-branch READMEs. Historical metadata recommendations:
+The three PRs merged with explicit owner authorization on 5 November 2026. Main
+verification passed, including manually dispatched Hub browser acceptance. Feature
+branches and historical evidence are retained. Current showcase navigation uses main.
+See the [recruiter-facing narrative](docs/portfolio/PORTFOLIO_NARRATIVE.md),
+[showcase audit](PORTFOLIO_SHOWCASE_AUDIT.md) and [profile review draft](docs/portfolio/GITHUB_PROFILE_DRAFT.md).
+Descriptions/topics were already updated in the publication pass; no new profile pins,
+website deployment or metadata changes were performed in this showcase pass.
 
-| Repository | Description | Topics |
-|---|---|---|
-| Playbook | Fictional AI transformation case: requirements, BPMN, reproducible investment scenarios, adoption and executive decision brief. | business-analysis, digital-transformation, change-management, ai-governance, portfolio |
-| Hub | Local .NET request and human-approval workspace with tested ownership, safe retries, persistent history and a Microsoft integration handoff. | dotnet, aspnet-core, workflow-automation, business-analysis, power-platform, portfolio |
-| Agent | Deterministic policy reference and experimental local-model evaluations with frozen quality gates, safe tool boundaries and preserved failures. | ai-evaluation, ai-governance, ollama, python, portfolio |
-
-The final publication pass applied owner-authorized descriptions and additional topics,
-retaining existing topics. Profile pins and visibility were not changed. See the current
-[v1 closure and merge handoff](NOORDWERK_V1_CLOSURE.md). No owner action is required
-to use the reviewed branches as a portfolio candidate. If incorporating into default
-branches later: review each draft and exact-head checks; merge Hub first, then Agent and
-Playbook; preserve the reviewed history and pinned Hub integration commit; update candidate
-cross-links after merging before deleting branches. Merging and changing draft status
-remain owner decisions. Do not infer a tag or GitHub Release from this version label.
+The local website proposal and central profile draft require review. They are not live.
+Consider retaining non-Noordwerk pins for breadth rather than replacing all six. This
+version designation does not create a GitHub Release or tag.
 
 ## Closure recommendation
 
 **Close Noordwerk Portfolio v1.0 for now.** The stated scope is coherent, demonstrated,
-reproducible and honestly bounded. Keep all PRs draft/unmerged in this handoff. Further
+reproducible and honestly bounded. The original publication PRs are merged; the later showcase branches remain unmerged. Further
 engineering needs a concrete new objective rather than an indefinite improvement cycle.

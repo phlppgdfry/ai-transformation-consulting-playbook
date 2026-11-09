@@ -1,0 +1,17 @@
+{
+  "checked": "2026-11-05",
+  "scope": "resolved isolated website lockfile; no deployment",
+  "counts": {
+    "info": 0,
+    "low": 0,
+    "moderate": 7,
+    "high": 17,
+    "critical": 2,
+    "total": 26
+  },
+  "critical_packages": [
+    "tinypool",
+    "vitest"
+  ],
+  "note": "Fix suggestions include semver-major Vitest upgrade; not applied."
+}
