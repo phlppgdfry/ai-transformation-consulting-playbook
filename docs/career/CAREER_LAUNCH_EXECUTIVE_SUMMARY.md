@@ -1,5 +1,7 @@
 # Enterprise AI career launch — start here
 
+> **Owner-review draft.** Not an approved CV, profile, application or outreach message. Personal facts and contribution require owner confirmation. Vacancy observations retain their original 6 November 2026 date; recheck before use.
+
 Prepared 6 November 2026 from public main evidence, later local showcase proposals and
 live employer listings. No application, outreach, profile publication or deployment occurred.
 

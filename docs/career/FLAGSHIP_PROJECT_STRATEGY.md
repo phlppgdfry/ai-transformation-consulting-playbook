@@ -1,5 +1,7 @@
 # Flagship: Enterprise AI Automation Hub
 
+> **Owner-review draft.** Not an approved CV, profile, application or outreach message. Personal facts and contribution require owner confirmation. Vacancy observations retain their original 6 November 2026 date; recheck before use.
+
 Decision: lead with the **working Hub**, frame it with the Playbook, and use Agent
 Governance as supporting evidence about AI reliability. The business-facing portfolio
 entry remains this Playbook; the flagship demonstration is the application.

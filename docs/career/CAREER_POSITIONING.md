@@ -1,5 +1,7 @@
 # Career positioning: a business–IT bridge with inspectable AI-assisted work
 
+> **Owner-review draft.** Not an approved CV, profile, application or outreach message. Personal facts and contribution require owner confirmation. Vacancy observations retain their original 6 November 2026 date; recheck before use.
+
 Based on repository evidence and the background supplied by the owner. Education,
 employment dates, languages, driving licence, work eligibility, availability and personal
 contribution are **unconfirmed**. Fill those facts before submitting any application.

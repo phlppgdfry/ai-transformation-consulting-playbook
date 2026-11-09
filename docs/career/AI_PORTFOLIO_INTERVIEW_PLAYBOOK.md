@@ -1,5 +1,7 @@
 # AI portfolio interview playbook
 
+> **Owner-review draft.** Not an approved CV, profile, application or outreach message. Personal facts and contribution require owner confirmation. Vacancy observations retain their original 6 November 2026 date; recheck before use.
+
 45 practice questions, grounded in the published Noordwerk reference. These are draft
 answers about artifacts, not proof of the owner's personal understanding. **PERSONAL**
 requires an owner-supplied truthful answer. Never memorise an invented contribution.

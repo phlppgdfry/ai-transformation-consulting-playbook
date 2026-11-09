@@ -5,7 +5,7 @@
 For recruiters, analysts and technical reviewers: [one-page narrative](docs/portfolio/PORTFOLIO_NARRATIVE.md),
 [demo choices](docs/portfolio/DEMO_STRATEGY.md) and [interview preparation](docs/portfolio/INTERVIEW_PREPARATION.md).
 
-Owner preparation: [career-launch summary and practical learning plan](docs/career/CAREER_LAUNCH_EXECUTIVE_SUMMARY.md).
+Owner-review drafts (personal facts unconfirmed): [career-launch summary and practical learning plan](docs/career/CAREER_LAUNCH_EXECUTIVE_SUMMARY.md).
 
 **Start here: [Portfolio completion](PORTFOLIO_FINAL.md) · [Five- and ten-minute walkthrough](docs/portfolio-walkthrough.md)**
 

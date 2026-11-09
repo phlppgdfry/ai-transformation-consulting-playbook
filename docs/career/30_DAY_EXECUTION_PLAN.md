@@ -1,5 +1,7 @@
 # Thirty days: demonstrate understanding, then earn conversations
 
+> **Owner-review draft.** Not an approved CV, profile, application or outreach message. Personal facts and contribution require owner confirmation. Vacancy observations retain their original 6 November 2026 date; recheck before use.
+
 Start on any date; label day 1 in a private calendar. Budget **40 hours total**: four
 9-hour weeks, then 2 hours each on days 29 and 30. No new large repository or platform.
 

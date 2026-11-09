@@ -1,5 +1,7 @@
 # Professional materials — owner-reviewed drafts
 
+> **Owner-review draft.** Not an approved CV, profile, application or outreach message. Personal facts and contribution require owner confirmation. Vacancy observations retain their original 6 November 2026 date; recheck before use.
+
 Use these only after confirming education, work history, language level, availability,
 mobility and personal contributions. All project entries belong under **Independent
 Projects**, not Employment. Do not add invented dates, qualifications or results.

@@ -1,5 +1,7 @@
 # Outreach strategy — drafts only, no messages sent
 
+> **Owner-review draft.** Not an approved CV, profile, application or outreach message. Personal facts and contribution require owner confirmation. Vacancy observations retain their original 6 November 2026 date; recheck before use.
+
 Goal: a relevant conversation about role expectations and fit, not immediate requests
 for favours or inflated claims. Use published main links today. Replace every placeholder
 with a verified public fact; if none exists, omit the personalisation sentence. No bulk

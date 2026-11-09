@@ -1,5 +1,7 @@
 # Belgian opportunity shortlist
 
+> **Owner-review draft.** Not an approved CV, profile, application or outreach message. Personal facts and contribution require owner confirmation. Vacancy observations retain their original 6 November 2026 date; recheck before use.
+
 Live source review: **6 November 2026**. 'Verified listing' means a role and application
 route were visible on its official employer/ATS page during this review, not a guarantee
 it remains open or that the owner qualifies. Recheck before applying. No application,
