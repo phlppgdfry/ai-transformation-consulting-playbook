@@ -1,5 +1,7 @@
 # Website section — local review handoff
 
+> Historical handoff. Superseded on 9 November 2026 by [the finalization report](../../ENTERPRISE_AI_PORTFOLIO_FINALIZATION_REPORT.md): current main was integrated, Router advisories resolved, and website draft PR #3 passed CI. Production still requires owner approval.
+
 Source identified: `phlppgdfry/pgosprive`, React/Vite, existing dark/green visual language
 and English/Dutch switcher. The separate accounting/enterprise AI case is not Noordwerk.
 The public site was read-only inspected with installed Chromium after the web tool and

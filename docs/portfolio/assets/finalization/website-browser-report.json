@@ -1,0 +1,309 @@
+{
+  "date": "2026-11-09T12:16:42.329Z",
+  "url": "http://127.0.0.1:4188",
+  "browser": "Chromium; Browser plugin not available",
+  "checks": [
+    {
+      "width": 375,
+      "lang": "en",
+      "render": true,
+      "images": 4,
+      "links": 7,
+      "overflow": false,
+      "keyboardRegion": true,
+      "axeViolations": 0
+    },
+    {
+      "width": 375,
+      "lang": "nl",
+      "render": true,
+      "images": 4,
+      "links": 7,
+      "overflow": false,
+      "keyboardRegion": true,
+      "axeViolations": 0
+    },
+    {
+      "width": 375,
+      "catalogueToCaseAndBack": true
+    },
+    {
+      "width": 375,
+      "languageTogglePreservesQueryAndAnchor": true
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "render": true,
+      "images": 4,
+      "links": 7,
+      "overflow": false,
+      "keyboardRegion": true,
+      "axeViolations": 0
+    },
+    {
+      "width": 768,
+      "lang": "nl",
+      "render": true,
+      "images": 4,
+      "links": 7,
+      "overflow": false,
+      "keyboardRegion": true,
+      "axeViolations": 0
+    },
+    {
+      "width": 768,
+      "catalogueToCaseAndBack": true
+    },
+    {
+      "width": 768,
+      "languageTogglePreservesQueryAndAnchor": true
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "render": true,
+      "images": 4,
+      "links": 7,
+      "overflow": false,
+      "keyboardRegion": true,
+      "axeViolations": 0
+    },
+    {
+      "width": 1024,
+      "lang": "nl",
+      "render": true,
+      "images": 4,
+      "links": 7,
+      "overflow": false,
+      "keyboardRegion": true,
+      "axeViolations": 0
+    },
+    {
+      "width": 1024,
+      "catalogueToCaseAndBack": true
+    },
+    {
+      "width": 1024,
+      "languageTogglePreservesQueryAndAnchor": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "render": true,
+      "images": 4,
+      "links": 7,
+      "overflow": false,
+      "keyboardRegion": true,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "lang": "nl",
+      "render": true,
+      "images": 4,
+      "links": 7,
+      "overflow": false,
+      "keyboardRegion": true,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "catalogueToCaseAndBack": true
+    },
+    {
+      "width": 1440,
+      "languageTogglePreservesQueryAndAnchor": true
+    }
+  ],
+  "violations": [],
+  "errors": [
+    {
+      "width": 375,
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "width": 375,
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "width": 375,
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "width": 375,
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "width": 375,
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "width": 768,
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "width": 768,
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "width": 768,
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "width": 768,
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "width": 768,
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "width": 1024,
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "width": 1024,
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "width": 1024,
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "width": 1024,
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "width": 1024,
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "width": 1440,
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "width": 1440,
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "width": 1440,
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "width": 1440,
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "width": 1440,
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    }
+  ],
+  "httpErrors": [
+    {
+      "width": 375,
+      "status": 404,
+      "url": "http://127.0.0.1:4188/_vercel/insights/script.js"
+    },
+    {
+      "width": 375,
+      "status": 404,
+      "url": "http://127.0.0.1:4188/_vercel/insights/script.js"
+    },
+    {
+      "width": 375,
+      "status": 404,
+      "url": "http://127.0.0.1:4188/_vercel/insights/script.js"
+    },
+    {
+      "width": 375,
+      "status": 404,
+      "url": "http://127.0.0.1:4188/_vercel/insights/script.js"
+    },
+    {
+      "width": 375,
+      "status": 404,
+      "url": "http://127.0.0.1:4188/_vercel/insights/script.js"
+    },
+    {
+      "width": 768,
+      "status": 404,
+      "url": "http://127.0.0.1:4188/_vercel/insights/script.js"
+    },
+    {
+      "width": 768,
+      "status": 404,
+      "url": "http://127.0.0.1:4188/_vercel/insights/script.js"
+    },
+    {
+      "width": 768,
+      "status": 404,
+      "url": "http://127.0.0.1:4188/_vercel/insights/script.js"
+    },
+    {
+      "width": 768,
+      "status": 404,
+      "url": "http://127.0.0.1:4188/_vercel/insights/script.js"
+    },
+    {
+      "width": 768,
+      "status": 404,
+      "url": "http://127.0.0.1:4188/_vercel/insights/script.js"
+    },
+    {
+      "width": 1024,
+      "status": 404,
+      "url": "http://127.0.0.1:4188/_vercel/insights/script.js"
+    },
+    {
+      "width": 1024,
+      "status": 404,
+      "url": "http://127.0.0.1:4188/_vercel/insights/script.js"
+    },
+    {
+      "width": 1024,
+      "status": 404,
+      "url": "http://127.0.0.1:4188/_vercel/insights/script.js"
+    },
+    {
+      "width": 1024,
+      "status": 404,
+      "url": "http://127.0.0.1:4188/_vercel/insights/script.js"
+    },
+    {
+      "width": 1024,
+      "status": 404,
+      "url": "http://127.0.0.1:4188/_vercel/insights/script.js"
+    },
+    {
+      "width": 1440,
+      "status": 404,
+      "url": "http://127.0.0.1:4188/_vercel/insights/script.js"
+    },
+    {
+      "width": 1440,
+      "status": 404,
+      "url": "http://127.0.0.1:4188/_vercel/insights/script.js"
+    },
+    {
+      "width": 1440,
+      "status": 404,
+      "url": "http://127.0.0.1:4188/_vercel/insights/script.js"
+    },
+    {
+      "width": 1440,
+      "status": 404,
+      "url": "http://127.0.0.1:4188/_vercel/insights/script.js"
+    },
+    {
+      "width": 1440,
+      "status": 404,
+      "url": "http://127.0.0.1:4188/_vercel/insights/script.js"
+    }
+  ],
+  "limitations": [
+    "No screen-reader certification",
+    "Contact submission intentionally not sent",
+    "Local Vercel Analytics script is hosting-only"
+  ]
+}
