@@ -1,0 +1,406 @@
+{
+  "disclaimer": "Fictional budgeting allowances, not vendor quotes or measured costs. EUR excluding tax.",
+  "baseline": {
+    "adoption": 0.6,
+    "hours_saved_month": 42.0,
+    "capacity_value_month": 1890.0,
+    "realised_benefit_month": 945.0,
+    "net_benefit_month": 595.0,
+    "first_year_net": -4860.0,
+    "first_year_roi_pct": -30.0,
+    "payback_months": 20.17
+  },
+  "current_monthly_labour_cost": 5400.0,
+  "assumptions": {
+    "cost_breakdown": {
+      "disclaimer": "Fictional budgeting allowances, not vendor quotes or measured costs. EUR excluding tax.",
+      "implementation": {
+        "discovery_and_process_design": 1500,
+        "workflow_and_api_delivery": 5500,
+        "security_and_release_testing": 1800,
+        "adoption_and_handover": 1200,
+        "contingency": 2000
+      },
+      "monthly": {
+        "incremental_licensing_allowance": 110,
+        "ai_consumption_allowance": 20,
+        "hosting_and_monitoring": 40,
+        "maintenance_and_support": 180
+      },
+      "drivers": {
+        "licensing": "5 pilot employees plus reviewers; confirm existing entitlements, connector premium rights and capacity. EUR 110 is an aggregate allowance, not a per-seat Microsoft price.",
+        "ai": "200 policy questions/month at assumed EUR 0.10 all-in allowance per question. Replace with measured tokens/credits and a dated quote. Local evaluation tokens do not establish cloud cost.",
+        "maintenance": "4 hours/month at fictional internal EUR 45/hour. Include failed-flow triage, source review and access changes.",
+        "hosting": "Aggregate EUR 40/month planning allowance; not an Azure SKU or quote. Validate ingress, data storage, logs, backups and support.",
+        "implementation": "Budget ceiling includes security, training and contingency. Does not imply a production implementation is deliverable for this price."
+      },
+      "ramp_adoption": [
+        0,
+        0,
+        0.2,
+        0.4
+      ],
+      "horizon_months": 36
+    },
+    "horizon_months": 36,
+    "timing": "Upfront at month 0; recurring costs from month 1; ramp then steady adoption.",
+    "exclusions": [
+      "Tax",
+      "Discounting",
+      "Inflation",
+      "Seasonality",
+      "Vendor price changes"
+    ]
+  },
+  "year_one_net_with_ramp": -7695.0,
+  "year_one_roi_pct_with_ramp": -47.5,
+  "payback_month_with_ramp": 25,
+  "steady_first_year_break_even_adoption": 0.8571,
+  "cash_flow": [
+    {
+      "month": 1,
+      "adoption": 0,
+      "benefit": 0.0,
+      "operating_cost": 350,
+      "net": -350.0,
+      "cumulative": -12350.0
+    },
+    {
+      "month": 2,
+      "adoption": 0,
+      "benefit": 0.0,
+      "operating_cost": 350,
+      "net": -350.0,
+      "cumulative": -12700.0
+    },
+    {
+      "month": 3,
+      "adoption": 0.2,
+      "benefit": 315.0,
+      "operating_cost": 350,
+      "net": -35.0,
+      "cumulative": -12735.0
+    },
+    {
+      "month": 4,
+      "adoption": 0.4,
+      "benefit": 630.0,
+      "operating_cost": 350,
+      "net": 280.0,
+      "cumulative": -12455.0
+    },
+    {
+      "month": 5,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": -11860.0
+    },
+    {
+      "month": 6,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": -11265.0
+    },
+    {
+      "month": 7,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": -10670.0
+    },
+    {
+      "month": 8,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": -10075.0
+    },
+    {
+      "month": 9,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": -9480.0
+    },
+    {
+      "month": 10,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": -8885.0
+    },
+    {
+      "month": 11,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": -8290.0
+    },
+    {
+      "month": 12,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": -7695.0
+    },
+    {
+      "month": 13,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": -7100.0
+    },
+    {
+      "month": 14,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": -6505.0
+    },
+    {
+      "month": 15,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": -5910.0
+    },
+    {
+      "month": 16,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": -5315.0
+    },
+    {
+      "month": 17,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": -4720.0
+    },
+    {
+      "month": 18,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": -4125.0
+    },
+    {
+      "month": 19,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": -3530.0
+    },
+    {
+      "month": 20,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": -2935.0
+    },
+    {
+      "month": 21,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": -2340.0
+    },
+    {
+      "month": 22,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": -1745.0
+    },
+    {
+      "month": 23,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": -1150.0
+    },
+    {
+      "month": 24,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": -555.0
+    },
+    {
+      "month": 25,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": 40.0
+    },
+    {
+      "month": 26,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": 635.0
+    },
+    {
+      "month": 27,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": 1230.0
+    },
+    {
+      "month": 28,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": 1825.0
+    },
+    {
+      "month": 29,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": 2420.0
+    },
+    {
+      "month": 30,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": 3015.0
+    },
+    {
+      "month": 31,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": 3610.0
+    },
+    {
+      "month": 32,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": 4205.0
+    },
+    {
+      "month": 33,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": 4800.0
+    },
+    {
+      "month": 34,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": 5395.0
+    },
+    {
+      "month": 35,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": 5990.0
+    },
+    {
+      "month": 36,
+      "adoption": 0.6,
+      "benefit": 945.0,
+      "operating_cost": 350,
+      "net": 595.0,
+      "cumulative": 6585.0
+    }
+  ],
+  "sensitivity": [
+    {
+      "adoption": 0.3,
+      "monthly_operating_cost": 200,
+      "first_year_net": -8730.0,
+      "payback_months": 44.04
+    },
+    {
+      "adoption": 0.3,
+      "monthly_operating_cost": 350,
+      "first_year_net": -10530.0,
+      "payback_months": 97.96
+    },
+    {
+      "adoption": 0.3,
+      "monthly_operating_cost": 600,
+      "first_year_net": -13530.0,
+      "payback_months": null
+    },
+    {
+      "adoption": 0.6,
+      "monthly_operating_cost": 200,
+      "first_year_net": -3060.0,
+      "payback_months": 16.11
+    },
+    {
+      "adoption": 0.6,
+      "monthly_operating_cost": 350,
+      "first_year_net": -4860.0,
+      "payback_months": 20.17
+    },
+    {
+      "adoption": 0.6,
+      "monthly_operating_cost": 600,
+      "first_year_net": -7860.0,
+      "payback_months": 34.78
+    },
+    {
+      "adoption": 0.9,
+      "monthly_operating_cost": 200,
+      "first_year_net": 2610.0,
+      "payback_months": 9.86
+    },
+    {
+      "adoption": 0.9,
+      "monthly_operating_cost": 350,
+      "first_year_net": 810.0,
+      "payback_months": 11.24
+    },
+    {
+      "adoption": 0.9,
+      "monthly_operating_cost": 600,
+      "first_year_net": -2190.0,
+      "payback_months": 14.68
+    }
+  ],
+  "recommendation": "Fund discovery and a bounded rules-only pilot; do not approve full rollout from this unmeasured scenario."
+}

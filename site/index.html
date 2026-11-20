@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Noordwerk Consulting Playbook — a decision-led AI engagement: discovery, economics, gates and adoption</title>
+<meta name="description" content="A consulting case for a fictional 140-person technical services company: discovery, gated prioritisation, a reproducible investment case with adoption ramp, and a recommendation to start small. Explore the cash flow and read the executive brief.">
+<link rel="canonical" href="https://phlppgdfry.github.io/ai-transformation-consulting-playbook/">
+<meta property="og:type" content="website"><meta property="og:title" content="Noordwerk Consulting Playbook — a decision-led AI engagement: discovery, economics, gates and adoption"><meta property="og:description" content="A consulting case for a fictional 140-person technical services company: discovery, gated prioritisation, a reproducible investment case with adoption ramp, and a recommendation to start small. Explore the cash flow and read the executive brief.">
+<meta property="og:url" content="https://phlppgdfry.github.io/ai-transformation-consulting-playbook/"><meta property="og:image" content="https://phlppgdfry.github.io/ai-transformation-consulting-playbook/og.jpg"><meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0a0d12">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23fbbf24'/%3E%3C/svg%3E">
+<link rel="preload" href="assets/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/showcase.css">
+<style>:root{--brand:#fbbf24;--accent-ink:#1a1100}
+#cp-tiles{grid-template-columns:1.4fr 1fr 1fr 1fr}#cp-tiles .big{grid-column:auto}
+@media (max-width:620px){#cp-tiles{grid-template-columns:1fr 1fr}#cp-tiles .big{grid-column:span 2}}
+.cp-card{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:14px;margin-top:12px}
+.cp-ct{font-size:13px;color:var(--muted);margin-bottom:8px}
+#cp-chart{width:100%;height:auto;display:block}
+#cp-chart .line{fill:none;stroke:var(--accent);stroke-width:2}
+#cp-chart .neg{fill:var(--bad)} #cp-chart .pos{fill:var(--ok)} #cp-chart .pb{stroke:var(--fg);stroke-width:2}
+#cp-chart circle{cursor:crosshair}
+#cp-chart .zero{stroke:var(--line2);stroke-dasharray:4 4}
+#cp-chart .ax{font:10px var(--mono);fill:var(--dim)}
+#cp-chart .y1{fill:color-mix(in srgb,var(--bad) 7%,transparent)}
+.cp-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:12px}
+.cp-grid>*{min-width:0}
+@media (max-width:900px){.cp-grid{grid-template-columns:1fr}}
+.cp-pos{color:var(--ok)} .cp-neg{color:var(--bad)}
+.cp-rec{font-size:16px;font-weight:600;margin:0 0 8px}
+.cp-sm{padding:8px 12px;font-size:13px;margin-top:6px}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap">
+  <a class="brand" href="#"><i class="dot"></i><span>Noordwerk Consulting Playbook</span></a>
+  <nav><a class="" href="#demo">Try it</a><a class="" href="#how">How it works</a><a class="hide-sm" href="#screens">Screens</a><a class="hide-sm" href="#run">Run it</a><a href="https://github.com/phlppgdfry/ai-transformation-consulting-playbook" aria-label="GitHub repository">GitHub</a><button class="theme" type="button" aria-label="Toggle light or dark theme"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button></nav>
+</div></div>
+<main>
+<header class="hero"><div class="wrap grid">
+  <div>
+    <div class="kicker"><span>Consulting · business case · AI strategy</span><span class="chip status">Case study</span></div>
+    <h1>The honest answer was: <em>start with rules, not AI</em>.</h1>
+    <p class="lede">Noordwerk wanted to know whether software and AI would pay off for material, expense and access requests that arrive by e-mail. The analysis recommends a bounded rules-only pilot, a separate policy-agent experiment, and explicit conditions for scaling or stopping, because year one is negative even under reasonable assumptions.</p>
+    <div class="ctas"><a class="btn primary" href="#demo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg> Explore the numbers</a><a class="btn" href="https://github.com/phlppgdfry/ai-transformation-consulting-playbook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg> Source on GitHub</a></div>
+    <div class="stack"><span class="chip">Python (standard library)</span><span class="chip">BPMN 2.0</span><span class="chip">Financial model</span><span class="chip">Gated scoring</span><span class="chip">Executive PDF</span><span class="chip">Make</span></div>
+  </div>
+  <div class="hero-visual"><div class="frame"><img src="img/docs-assets-executive-cover.webp" alt="Noordwerk Consulting Playbook" width="1100" height="619"></div><div class="caption">Cover of the ten-page executive brief, generated by scripts/build_executive_pdf.py.</div></div>
+</div></header>
+<section id="why"><div class="wrap">
+  <p class="eyebrow">Why it exists</p><h2>Most AI proposals skip the question of whether it pays.</h2>
+  <div class="problem">
+    <div class="card before"><div class="label">Without it</div><p>A vendor demo becomes a rollout plan. The business case counts released hours as cash, assumes everyone adopts on day one, and puts an attractive but unsafe use case at the top of the list.</p></div>
+    <div class="card after"><div class="label">With it</div><p>Facts, assumptions and decisions are separated in discovery. Hard gates reject use cases without an owner, data permission or acceptable risk. The investment case separates capacity from realised value, models an adoption ramp, and the recommendation says when to stop.</p></div>
+  </div>
+</div></section>
+<section id="demo"><div class="wrap">
+  <p class="eyebrow">Try it · runs in your browser</p><h2>Explore the investment case</h2>
+  <p class="sub">The monthly output of <code>financial_model.py</code> (<code>output/investment-case.json</code>). Hover the curve for each month, and read the sensitivity grid: only high adoption with low running cost turns year one positive.</p>
+  <div class="demo"><div class="cp-tiles kpi-tiles" id="cp-tiles"></div>
+<div class="cp-card"><div class="cp-ct">Cumulative cash flow over 36 months, with the adoption ramp · <span id="cp-hover" class="mono"></span></div><svg id="cp-chart" role="img" aria-label="Cumulative cash flow by month"></svg></div>
+<div class="cp-grid">
+  <div class="cp-card"><div class="cp-ct">Sensitivity: first-year net (€) by adoption and monthly operating cost</div><div class="scroll-x"><table class="tbl" id="cp-sens"></table></div></div>
+  <div class="cp-card"><div class="cp-ct">Recommendation</div><p id="cp-rec" class="cp-rec"></p><p class="small dim" id="cp-disc"></p><a class="btn primary cp-sm" href="assets/noordwerk-executive-brief.pdf">Open the 10-page executive brief (PDF)</a></div>
+</div>
+</div>
+  <p class="note">Fictional budgeting allowances, not vendor quotes, current Microsoft prices or measured results. Released hours are valued at half for realised benefit; the model is reproducible with make verify.</p>
+</div></section>
+<section id="how"><div class="wrap">
+  <p class="eyebrow">How it works</p><h2>The engagement, step by step</h2>
+  
+  <div class="cards"><div class="card"><div class="ic">01</div><h3>Discovery</h3><p>A workshop and client brief that separate facts from assumptions, and confirm owner, baseline, data rights and scope.</p></div><div class="card"><div class="ic">02</div><h3>Options and risk</h3><p>E-mail improvement, rules, Power Platform and AI compared in a decision brief with a risk register.</p></div><div class="card"><div class="ic">03</div><h3>Gated prioritisation</h3><p>Deterministic scoring of value, feasibility and readiness; hard gates block unsafe cases whatever their score.</p></div><div class="card"><div class="ic">04</div><h3>Delivery and adoption</h3><p>A gated roadmap, RACI, KPIs and a training plan with accountable exit criteria.</p></div></div>
+  <h3 style="margin:34px 0 14px">The flow, step by step</h3><div class="flow" role="list"><div class="node"><div class="n">01</div><b>Discover</b><small>facts vs assumptions</small></div><div class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div><div class="node"><div class="n">02</div><b>Options</b><small>four routes compared</small></div><div class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div><div class="node hl"><div class="n">03</div><b>Gate + score</b><small>unsafe cases blocked</small></div><div class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div><div class="node"><div class="n">04</div><b>Invest</b><small>ramped cash flow, sensitivity</small></div><div class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div><div class="node"><div class="n">05</div><b>Pilot</b><small>rules first, exit criteria</small></div></div>
+</div></section>
+<section id="screens"><div class="wrap">
+  <p class="eyebrow">Screens</p><h2>What it looks like</h2>
+  <p class="sub">Process and method diagrams; the BPMN sources are in process/.</p>
+  <div class="gallery"><figure data-zoom="AS-IS — Requests by e-mail, chasing owners."><div class="frame"><img src="img/docs-assets-as-is-process.svg" alt="AS-IS" loading="lazy" decoding="async"></div><figcaption><b>AS-IS</b> Requests by e-mail, chasing owners.</figcaption></figure><figure data-zoom="TO-BE — Routed requests with human decisions."><div class="frame"><img src="img/docs-assets-to-be-process.svg" alt="TO-BE" loading="lazy" decoding="async"></div><figcaption><b>TO-BE</b> Routed requests with human decisions.</figcaption></figure><figure data-zoom="From discovery to a gated pilot decision — Method and component boundaries."><div class="frame"><img src="img/docs-assets-architecture.svg" alt="From discovery to a gated pilot decision" loading="lazy" decoding="async"></div><figcaption><b>From discovery to a gated pilot decision</b> Method and component boundaries.</figcaption></figure></div>
+</div></section>
+<section id="evidence"><div class="wrap">
+  <p class="eyebrow">Evidence</p><h2>What is real, and what is not</h2>
+  
+  <div class="metrics"><div class="metric"><div class="v">−€7,695</div><div class="l">first-year net with ramp</div><div class="s">first non-negative month: 25</div></div><div class="metric"><div class="v">86%</div><div class="l">adoption to break even in year one</div><div class="s">the base case assumes 60%</div></div><div class="metric"><div class="v">101</div><div class="l">tracked paths checked</div><div class="s">make verify: JSON, XML, pins, credential patterns</div></div></div>
+  <div class="honest" style="margin-top:18px">
+      <div class="card real"><h3><span class="pill ok">REAL</span> Built and verified</h3><ul><li>Reproducible scoring and financial model with checks in CI</li><li>A rendered ten-page executive brief, BPMN models and a working Automation Hub</li><li>A separate agent experiment that openly fails its quality gates</li></ul></div>
+      <div class="card sim"><h3><span class="pill warn">SIMULATED</span> Mocked or not built yet</h3><ul><li>Noordwerk, its workshops, people and numbers are fictional</li><li>No real engagement, deployment or realised saving is claimed</li><li>Costs are budgeting allowances, not quotes</li></ul></div></div>
+</div></section>
+<section id="run"><div class="wrap two">
+  <div><p class="eyebrow">Run it yourself</p><h2>Run it locally</h2>
+  <p class="sub">Python 3.11+ and Make; no third-party runtime dependencies.</p>
+  <div class="code"><button class="copy" type="button">Copy</button><pre><code>git clone https://github.com/phlppgdfry/ai-transformation-consulting-playbook
+cd ai-transformation-consulting-playbook
+make verify
+python3 playbook.py
+python3 financial_model.py --output /tmp/investment-case.json</code></pre></div></div>
+  <div><p class="eyebrow">Go deeper</p><h2>Read the source</h2>
+  <div class="links"><a href="https://github.com/phlppgdfry/ai-transformation-consulting-playbook"><span>Repository</span><span>github</span></a><a href="https://github.com/phlppgdfry/ai-transformation-consulting-playbook/blob/HEAD/deliverables/noordwerk-executive-brief.pdf"><span>Executive brief (PDF)</span><span>pdf</span></a><a href="https://github.com/phlppgdfry/ai-transformation-consulting-playbook/blob/HEAD/docs/engagement-decision.md"><span>Decision brief and risk register</span><span>docs</span></a><a href="https://github.com/phlppgdfry/ai-transformation-consulting-playbook/blob/HEAD/docs/financial-assumptions.md"><span>Financial assumptions</span><span>docs</span></a><a href="https://phlppgdfry.github.io/enterprise-ai-automation-hub/"><span>Automation Hub (the pilot)</span><span>live</span></a><a href="https://phlppgdfry.github.io/enterprise-ai-agent-governance/"><span>Agent Governance (the experiment)</span><span>live</span></a></div></div>
+</div></section></main>
+<footer><div class="wrap">
+  <span>Noordwerk Consulting Playbook · A portfolio project by Philippe Godfroy</span>
+  <span><a href="https://www.philippegodfroy.com/work">More projects</a> · <a href="https://github.com/phlppgdfry/ai-transformation-consulting-playbook">Source</a></span>
+</div></footer>
+<script src="assets/showcase.js"></script>
+
+<script src="assets/demo.js" type="module"></script>
+</body></html>

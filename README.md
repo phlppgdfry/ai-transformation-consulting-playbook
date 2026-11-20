@@ -1,5 +1,11 @@
 # Noordwerk · AI Transformation Consulting Playbook
 
+<!-- showcase:start -->
+> **[▶ Explore the investment case](https://phlppgdfry.github.io/ai-transformation-consulting-playbook/)** — hover the 36-month cash flow, read the sensitivity grid and open the ten-page executive brief behind the 'start with rules, not AI' recommendation.
+
+[![Explore the investment case: ai-transformation-consulting-playbook](site/demo.png)](https://phlppgdfry.github.io/ai-transformation-consulting-playbook/)
+<!-- showcase:end -->
+
 **Enterprise AI — Strategy, Automation, Governance & Evaluation**
 
 For recruiters, analysts and technical reviewers: [one-page narrative](docs/portfolio/PORTFOLIO_NARRATIVE.md),
